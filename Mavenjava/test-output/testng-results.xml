@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13710" started-at="2019-05-28T12:27:54Z" finished-at="2019-05-28T12:28:08Z">
+  <suite name="Default suite" duration-ms="13297" started-at="2019-05-29T12:41:41Z" finished-at="2019-05-29T12:41:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13710" started-at="2019-05-28T12:27:54Z" finished-at="2019-05-28T12:28:08Z">
+    <test name="Default test" duration-ms="13297" started-at="2019-05-29T12:41:41Z" finished-at="2019-05-29T12:41:55Z">
       <class name="qaclickacademy.SeleniumTest">
-        <test-method status="PASS" signature="SeleniumMethod1()[pri:0, instance:qaclickacademy.SeleniumTest@3834d63f]" name="SeleniumMethod1" duration-ms="13699" started-at="2019-05-28T17:57:54Z" finished-at="2019-05-28T17:58:08Z">
+        <test-method status="PASS" signature="initialConfig()[pri:0, instance:qaclickacademy.SeleniumTest@721e0f4f]" name="initialConfig" is-config="true" duration-ms="22" started-at="2019-05-29T18:11:41Z" finished-at="2019-05-29T18:11:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SeleniumMethod1 -->
+        </test-method> <!-- initialConfig -->
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:qaclickacademy.SeleniumTest@721e0f4f]" name="openBrowser" duration-ms="7264" started-at="2019-05-29T18:11:41Z" finished-at="2019-05-29T18:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:2, instance:qaclickacademy.SeleniumTest@721e0f4f]" name="login" duration-ms="3647" started-at="2019-05-29T18:11:49Z" finished-at="2019-05-29T18:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="openApps()[pri:3, instance:qaclickacademy.SeleniumTest@721e0f4f]" name="openApps" duration-ms="169" started-at="2019-05-29T18:11:52Z" finished-at="2019-05-29T18:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApps -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:qaclickacademy.SeleniumTest@721e0f4f]" name="closeBrowser" is-config="true" duration-ms="2171" started-at="2019-05-29T18:11:52Z" finished-at="2019-05-29T18:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- qaclickacademy.SeleniumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
